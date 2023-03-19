@@ -1,7 +1,5 @@
-# buzzfeed-clones (Repetition)
-Short Repetition from Vanilla JS Website to
-React App with JSON-Server to 
-React App with TypeScript and MongoDB Typescript Implementation
+# buzzfeed-clones
+Short Repetition from Vanilla JS Website to React App with JSON-Server to React App with TypeScript and MongoDB Typescript Implementation.
 
 ### 1) HTML / CSS / JS
 Standard Web App
@@ -10,7 +8,9 @@ Standard Web App
 React App Version with JSON-Server
 
 ### 3) React App with TypeScript
-Transforming the app to use TypeScript
+Transforming the app to use TypeScript as well as setting up MongoDB TypeScript.
+Tutorial [here](https://www.mongodb.com/compatibility/using-typescript-with-mongodb-tutorial)
+
 
 ### Source
 I used this [tutorial](https://www.youtube.com/watch?v=qkQr42DmaEE) to repeat all three builds.
