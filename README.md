@@ -1,15 +1,15 @@
 # buzzfeed-clones (Repetition)
 Short Repetition from Vanilla JS Website to
-React App with JSON server to 
+React App with JSON-Server to 
 React App with TypeScript and MongoDB Typescript Implementation
 
-## 1) HTML / CSS / JS
+### 1) HTML / CSS / JS
 Standard Web App
 
-## 2) React App
-React App Version 
+### 2) React App
+React App Version with JSON-Server
 
-## 3) React App with TypeScript
+### 3) React App with TypeScript
 Transforming the app to use TypeScript
 
 ### Source
