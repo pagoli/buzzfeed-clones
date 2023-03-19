@@ -1,0 +1,159 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+body {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  line-height: 1.05;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.2;
+  margin: 1rem 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 1.05;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.25rem;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.title-block {
+  width: 100%;
+  padding: 1.5rem 2rem;
+  margin: 1rem 0 1rem;
+  background-color: rgb(14, 112, 78);
+  color: whitesmoke;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.answer-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* grid-template-rows: repeat(auto-fit, minmax(200px, 1fr)); */
+  gap: 0.5rem;
+}
+
+.answer-block {
+  width: 100%;
+  height: 350px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  border: none;
+}
+
+.answer-block:hover {
+  /* border: 1px solid darkslategrey; */
+  background-color: rgba(47, 79, 79, 0.193);
+  /* color: white; */
+  scale: 0.98;
+}
+
+.answer-block img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.answer-block p {
+  color: inherit;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.result-block {
+  background-color: rgba(97, 255, 62, 0.7);
+  padding: 1.5rem 2rem;
+
+  color: black;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.result-block h3 {
+  padding: 0 0 1rem;
+  font-size: 1.8rem;
+}
+
+.result-block img {
+  border-radius: 5px;
+}
